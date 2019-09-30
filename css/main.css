@@ -1,0 +1,266 @@
+body {
+  background-color: lightgray;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+}
+h2 {
+  font-family: 'Patua One', cursive;
+  font-size: 30px;
+}
+
+p {
+  font-family:'Vollkorn SC', serif;
+  font-size: 22px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+width: 13vw;
+height: 13vh;
+font-family: 'Vollkorn SC', serif;
+font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  padding: 20px;
+  margin-left: 150px;
+  font-family: 'Vollkorn SC', serif;
+}
+
+
+#header{
+  background-color: lightgray;
+  display: flex;
+  position: fixed;
+  min-inline-size: -webkit-fill-available;
+  height: 56px;
+
+}
+#header-img  {
+  width: 50px;
+  height: 50px;
+  margin-left: 3%;
+}
+#nav-bar {
+  display: flex;
+}
+
+#signup {
+  text-align: center;
+  padding: 200px;
+}
+
+#form {
+  display: inline-grid;
+  margin-top: 50px;
+}
+#submit {
+  margin: 20px;
+  font-size: 30px;
+}
+
+#email {
+  font-size: 16px;
+}
+
+#features {
+  display: grid;
+  grid-template-columns: 200px 700px;
+  grid-template-rows: 200px 200px 200px;
+  line-height: 30px;
+  margin-bottom: 15%;
+  margin-left: 8%;
+  justify-content: center;
+  grid-gap: 5em;
+  padding: 60px;
+}
+.icon1 {
+grid-column: 1 / span 1;
+grid-row: 1 / span 1;
+}
+.icon1 > img {
+  width: 100%;
+  height: 100%;
+}
+.description1 {
+  grid-column: 2 ;
+  grid-row: 1 / span 1;
+}
+.icon2 {
+grid-column: 1 / 1;
+grid-row: 2 / span 1;
+}
+.icon2 > img {
+  width: 100%;
+  height: 100%;
+}
+.description2 {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.icon3 {
+  grid-column: 1 / span 1 ;
+  grid-row: 3 / span 1;
+}
+.icon3 > img {
+  width: 100%;
+  height: 100%;
+}
+.description3 {
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+
+#video {
+margin-left: 27%;
+margin-top: 5%;
+margin-bottom: 15%;
+max-width: 700px;
+border-radius: 10px;
+}
+
+section#pricing {
+  display: inline-flex;
+  flex-direction: column;
+  padding-left: 450px;
+  padding-top: 60px;
+}
+.product {
+  border: 2px solid black;
+  margin: 20px;
+  background-color: lightgray;
+  text-align: center;
+  border-radius: 10px;
+}
+h3 {
+  background-color: #C0C0C0;
+  font-family: 'Patua One', cursive;
+}
+button {
+  margin-bottom: 10%;
+}
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #C0C0C0;
+  margin-top: 5%;
+  padding: 10px;
+  justify-content:flex-start;
+}
+footer > img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+footer > a {
+  margin: 15px;
+}
+
+@media screen and (max-width: 600px){
+        #features {  display: block;
+        }
+         h1 {
+           font-size: 17px;
+         }
+        h2 {
+          font-size: 18px;
+        }
+        p {
+          font-size: 16px;
+        }
+
+        #video {
+          margin-left: 10%;
+          max-width: 50px;
+        }
+        li {
+          font-size: 16px;
+        }
+
+        section#pricing {
+          padding-left: 100px ;
+        }
+
+        a {
+          margin-left: 0px;
+        }
+        #main-title {
+          display: inline-flex;
+          font-size: 30px;
+        }
+        footer {
+          display: inline-block;
+          margin-left: 40px;
+        }
+
+    }
+@media screen and (max-width: 990px) {
+      #features {
+        display: block;
+      }
+      a {
+        margin-left: 0px;
+      }
+      section#pricing {
+        padding-left: 150px ;
+      }
+      #video {
+        margin-left: 15%;
+        max-width: 400px;
+        margin-top: 70px;
+      }
+      h1 {
+        font-size: 17px;
+      }
+     h2 {
+       font-size: 18px;
+     }
+     p {
+       font-size: 16px;
+     }
+     li {
+       font-size: 16px;
+     }
+
+     section#pricing {
+       padding-left: 100px ;
+     }
+
+     a {
+       margin-left: 0px;
+     }
+     #main-title {
+       display: inline-flex;
+       font-size: 30px;
+     }
+     footer {
+       display: inline-block;
+       margin-left: 40px;
+     }
+     .icon1 {
+       width: 200px;
+       height: 200px;
+       margin-left: 100px;
+     }
+
+     .icon2 {
+       width: 200px;
+       height: 200px;
+       margin-left: 100px;
+     }
+
+     .icon3 {
+       width: 200px;
+       height: 200px;
+       margin-left: 100px;
+     }
+
+}
